@@ -1,0 +1,33 @@
+<html lang="ja">
+  <!DOCTYPE html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal Window</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <button id="open">click!</button>
+
+    <section id="modal" class="hidden">
+      <p>バスケがやりたいにゃ！</p>
+      <img src="ba.png" alt="" />
+      <div class="okno">
+        <button id="closeOk">Ok!</button>
+        <button id="closeNo">No!</button>
+      </div>
+    </section>
+    <div id="mask" class="hidden"></div>
+
+    <div id="ok" class="hid">
+      <img src="ok.png" alt="" />
+      <p class="text"></p>
+    </div>
+    <div id="no" class="hid">
+      <img src="no.png" alt="" />
+      <p class="text"></p>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
